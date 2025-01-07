@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 12px;
+    background-color: #f0f0f0;
+}
+
+img {
+    border-radius: 100%;
+    border-style: ridge;
+}
+
+.intro, .projSection, .info, .hobbies, footer {
+    margin: 12px 5px; /* Adds 12px vertical space between sections */
+    padding: 12px;  /* Adds 12px padding inside each container */
+    background-color: white; /* Ensures containers stand out */
+    border-radius: 12px;
+   s
+}
+
+.projSection {
+    background-color: lightgray;
+}
+
+.projContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.proj {
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+    flex: 1;
+    text-align: center;
+}
+
+#mail, #name, #msg {
+    width: 100%;
+}
+#click {
+    width:50%;
+}
+
+footer {
+    text-align: center;
+    border-radius: 12px;
+    font-size: larger;
+    padding: 12px;
+    margin-top: 12px; /* Ensure footer doesn't stick to the last container */
+}
